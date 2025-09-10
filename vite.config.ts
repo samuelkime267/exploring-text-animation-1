@@ -12,3 +12,5 @@ export default defineConfig({
     },
   },
 });
+
+// npm install -D @types/node
