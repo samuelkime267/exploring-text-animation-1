@@ -1,1 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
+@import "./_fonts.css";
+@import "./_texts.css";
+
+@theme {
+  --color-primary: #ffc779;
+  --font-futura: "Futura", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+  --font-porscha: "Porscha", sans-serif;
+}
+
+button {
+  @apply cursor-pointer;
+}
+
+.char-title {
+  @apply translate-y-full pb-1;
+}
+
+.line-title {
+  @apply overflow-hidden;
+}
+
+.legacy-char-title {
+  @apply blur-2xl opacity-0;
+}
+
+.legacy-line-desc {
+  @apply overflow-hidden;
+}
+.legacy-char-desc {
+  @apply translate-y-full pb-1;
+}
